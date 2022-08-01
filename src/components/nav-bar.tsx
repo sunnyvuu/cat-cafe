@@ -11,7 +11,7 @@ import InputBase from '@mui/material/InputBase';
 
 const pages = ['About Us', 'Cats', 'Menu', 'Merch'];
 
-const ResponsiveAppBar = () => {
+const NavBar = () => {
   const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
@@ -69,8 +69,9 @@ const ResponsiveAppBar = () => {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'monospace', 
               fontWeight: 700,
+              fontSize: 30,
               letterSpacing: '.3rem',
               color: 'white',
               textDecoration: 'none',
@@ -106,4 +107,4 @@ const ResponsiveAppBar = () => {
     </AppBar>
   );
 };
-export default ResponsiveAppBar;
+export default NavBar;
