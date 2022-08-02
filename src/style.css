@@ -1,8 +1,10 @@
-.app { 
-    /* height: 100vh; */
+.body { 
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* aligns on x axis */
+    align-items: center; 
+    /* aligns on y axis */
     justify-content: center;
     background-color: #ffe3e8;
     }; 
